@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5ebdc;
+}
+
+.navbar{
+    border: 1px solid;
+    border-style: outset;
+    height: 100px;
+}
+
+.navbar-top{
+    margin: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    margin-left: 400px;
+    margin-right: 360px;
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.buttons .sign-up {
+    border-radius: 20px;
+    margin-right: 15px;
+    border: 2px solid;
+    color: white;
+    background-color: #d62300;
+    height: 35px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .basket {
+    border-radius: 20px;
+    border: 2px solid;
+    color: white;
+    background-color: black;
+    height: 35px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-location{
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 200;
+    color: #502348;
+}
+
+.navbar-location svg{
+    margin-right: 10px;
+}
+
+.loc-avail{
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+.choose-loc{
+    text-decoration: underline;
+}
+
+
+.content{
+    margin-left: 30px;
+    height: 356px;
+    overflow: hidden;
+    display: block;
+    /* background-color: rgb(255, 255, 130); */
+}
+
+
+.cont-text{
+    font-weight: 800;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+.pickup{
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-right: 15px;
+    border: 2px solid;
+    color: white;
+    background-color: #d62300;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.delivery{
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-right: 15px;
+    border: 2px solid;
+    color: #d62300;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img{
+    margin-left: 500px;
+    margin-top: -350px;
+}
